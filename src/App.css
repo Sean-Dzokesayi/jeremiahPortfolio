@@ -1,0 +1,74 @@
+/* App.css */
+
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: Arial, sans-serif;
+}
+
+
+.container {
+  width: 100%;
+}
+
+.section {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+.bg1 {
+  background-color: #ff6347; /* Tomato */
+  /* background-image: url("https://img.freepik.com/free-vector/black-abstract-background_1393-348.jpg"); */
+}
+
+.s2 {
+  background-color: rgba(255, 255, 255, 0.7);
+  /* background-color: #4682b4; SteelBlue; */
+  /* background-image: url("https://coolbackgrounds.io/images/backgrounds/index/sea-edge-79ab30e2.png"); */
+}
+
+
+
+.bg3 {
+  background-color: #3cb371; /* MediumSeaGreen */
+  /* background-image: url("https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"); */
+
+}
+
+.full-screen-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit:fill;
+  transform: translate(-50%, -50%);
+}
+
+.half-screen-image {
+  position: absolute;
+  top: 50%; 
+  left: 30%;
+  width: 45%;
+  height: 80%;
+  object-fit:fill;
+  transform: translate(-50%, -50%);
+  /* float: left; */
+}
+
+.half-screen-text{
+  position: absolute;
+  right: 10%;
+  width: 30%;
+  /* border: 1px solid red; */
+  top: 30%;
+  font-family:monospace;
+  font-size: 18px;
+  letter-spacing: 2px;
+  line-height: 25px;
+  font-weight: bold;
+  background-color: white;
+  padding: 1em;
+}
